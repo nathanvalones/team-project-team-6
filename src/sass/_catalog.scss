@@ -230,6 +230,15 @@ h2 {
     .catalog-container {
         width: 375px;
     }
+
+    .service-form,
+    .catalog-last-button,
+    .catalog-policy {
+        text-align: center;
+    }
+
+    
+   
 }
 
 @media (max-width: 768px) {
