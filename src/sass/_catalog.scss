@@ -205,3 +205,41 @@ h2 {
 .catalog-policy span {
     text-decoration: underline;
 }
+
+// CSS Media Query
+
+@media (min-width: 375px) {
+    .catalog-container {
+        width: 375px;
+    }
+}
+
+@media (min-width: 768px) {
+    .catalog-container {
+        width: 768px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .catalog-container {
+        width: 1280px;
+    }
+}
+
+@media (max-width: 375px) {
+    .catalog-container {
+        width: 375px;
+    }
+}
+
+@media (max-width: 768px) {
+    .catalog-container {
+        width: 768px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .catalog-container {
+        width: 1280px;
+    }
+}
